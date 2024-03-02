@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-center{
+  text-align: center;
+  
+  font-size: 50px;
+  color: red;
+}
+
+.input-class{
+  /*border-radius: 15px;*/
+  outline: 0;
+  background-color: lightblue;
+  padding: 10px 10px 5px;
+  border: None;
+  /*margin: 20p;*/
+
+
+}
+
+.input-class:focus{
+  box-shadow: 0 0 10px 0 brown;
+}
+
+.btn-save{
+  background-color: darkgray;
+  padding: 10px 10px 5px;
+  /*transform: skew(-5deg);*/
+  color: green;
+  border: None;
+
+}
+
+.list-todo{
+  display:flex;
+  list-style: none;
+  flex-direction: column;
+  /*align-items: center;*/
+
+  padding-left: 5px;
+  width: 20%;
+
+}
+
+.list-todo >li{
+  border: 1px solid olivedrab;
+  padding: 0px;
+  cursor: pointer;
+  color: blue;
+}
+
+.list-todo >li:hover{
+  color: black;
+  background-color:brown;
+
+}
+
+.btn-save:active{
+  box-shadow: 0 0 10px 0 brown;
+}
